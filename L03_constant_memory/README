@@ -1,0 +1,2 @@
+Time without __constant__ spheres: 3.80621ms
+Time with    __comstant__ spheres: 2.69472ms 

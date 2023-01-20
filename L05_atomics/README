@@ -1,0 +1,29 @@
+Test results
+
+
+CPU:
+
+	OK
+	real	0m0,960s
+	user	0m0,935s
+	sys	0m0,025s
+
+
+GPU slow kernel:
+
+	OK
+	GPU time: 107.329ms
+	
+	real	0m0,226s
+	user	0m0,115s
+	sys	0m0,095s	
+
+
+GPU fast kernel:
+
+	OK
+	GPU time: 61.9525ms
+
+	real	0m0,174s
+	user	0m0,057s
+	sys	0m0,097s	

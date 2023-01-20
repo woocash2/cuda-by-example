@@ -1,0 +1,10 @@
+Julia set:
+
+// kompilacja
+nvcc julia_set.cu
+
+// generacja obrazka
+./a.out > img0.ppm
+
+// wyświetlenie obrazka (pamiętaj o -X przy ssh)
+eog img0.ppm

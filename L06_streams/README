@@ -1,0 +1,14 @@
+In pinned_mem_test.cu not sure why but the test results for C malloc and cudaHostAlloc do not differ much.
+Probably a newer cuda driver is smart when doing stuff with memory.
+
+Streams results:
+Single stream:
+	GPU time: 826.602ms
+Two dumb streams:
+	GPU time: 798.115ms
+Two smart streams:
+	GPU time: 799.034ms
+
+
+The results are very similar between dumb and smart streams.
+The conclusion is that a newer nvidia driver schedules the work in a smart way.
